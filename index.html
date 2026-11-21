@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My one and only</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="postcard-wrapper">
+
+    <!-- ==================== PAGE 1: POSTCARD COVER ==================== -->
+    <section id="page1" class="card-face active">
+      <div class="polaroid-frame">
+        <div class="tape"></div>
+        <!-- EDIT HERE: Replace image URL with your photo -->
+        <img src="image/zy.jpg" alt="Us" />
+        <!-- EDIT HERE: Polaroid Caption -->
+        <p class="polaroid-caption">With my favorite person</p>
+      </div>
+
+      <div class="cover-text">
+        <!-- EDIT HERE: Cover Headline -->
+        <h1>Just a short message for you.</h1>
+      </div>
+
+      <button id="toPage2Btn" class="btn btn-terracotta">Read message →</button>
+    </section>
+
+    <!-- ==================== PAGE 2: LINEN NOTE SHEET ==================== -->
+    <section id="page2" class="card-face">
+     
+
+      <div class="letter-body">
+        <!-- EDIT HERE: Greeting -->
+        <h2 class="baby">Hi Baby,</h2>
+
+        <!-- EDIT HERE: Your Letter Paragraphs -->
+        <p>
+          I know po na magiging mahirap sayo ang 1st day or 1st week po sa ojt pero naniniwala ako sayo na kakayanin, and ik na kakayanin mo rin makapag adjust agad sa manila.
+        </p>
+        <p>
+         Basta po pag may concern or need wag po ikaw mag dadalwang isip mag sabi sa akin andito lang po ako lagi para sayo baby. 
+        </p>
+        <p>
+            Syempre wag mo po pabayaan ang sarili mo, mahirap po magkasakit lalo na pag nasa manila. Focus ka lang po sa ojt mo, wag ka po mag alala, gagawa at gagawa ako ng way para magkita tayo, walang ibang magiging dahilan. 
+        </p>
+        <p>
+            Pwede mo naman po gawin or kainin kung ano po gusto and hindi kita pag hihigpitan or pag babawalan, pero po pag alam na bawal po ay yun lang ang iiwasan, and sa ice cream naman po is once a week lang po, excep sa food iwasan din po yung mga bawal yung pag papahid ng alcohol sa katawan at pag pulbo.
+        </p>
+        <p>
+             Kakain din po sa tamang oras, iba po ang ojt sa school day/works kaya need mo po lagi kumain.  Habol ko lang po pag kaya umiwas dun sa mga yun (alam mo na po yun) is iwasan kesa po mabarino or mainis ka lang, okay lang po kahit kayo ni mhar lang alam ko naman po na safe ka sa kanya at di ka niya hahayaan magalit or mabarino ng dahil sa kanya.
+        </p>
+        <p>
+            Sa akin naman po is wag ka po mag alala aalagaan ko po sarili ko, habang wala ka, mag sasabi po ako sayo pag may problema or nararamdaman, nag pinky promise naman po ako sayo about dun
+        </p>
+        <p>
+            God Bless sa OJT mo po Baby. Andito lang ako laging naka suporta sayo, proud po ako sayo. I love you! Ma-mimiss po kita!
+        </p>
+
+        <!-- EDIT HERE: 3 Highlight Tags -->
+        <div class="tags-row">
+          <span class="tag">My Safe Space</span>
+          <span class="tag">My Favorite person</span>
+          <span class="tag">Always & Forever</span>
+        </div>
+
+        <!-- EDIT HERE: Signature -->
+        <div class="signature-block">
+          <p class="closing">Always yours,</p>
+          <p class="signature">Drich</p>
+        </div>
+      </div>
+
+      <div class="smile-box">
+        <p id="smileQuote" class="smile-quote">"You're my favorite notification every single day."</p>
+        <button id="smileBtn" class="btn btn-sage">Tap for a short message</button>
+      </div>
+    </section>
+
+  </main>
+
+  <canvas id="confettiCanvas"></canvas>
+  <script src="script.js"></script>
+</body>
+</html>
